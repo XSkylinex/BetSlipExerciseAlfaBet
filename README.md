@@ -6,7 +6,7 @@ This is the README file for the AlphaBet Home Test project.
 - [Introduction](#introduction)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
-- [Installation](#installation)
+- [Installation](#installation)d
 - [Usage](#usage)
 - [Contributing](#contributing)
 
@@ -41,6 +41,10 @@ This project is a demonstration of various software development concepts and tec
 - Redux Toolkit: Uses Redux Toolkit for state management.
 - React Tooltip.
 - Normalize.css: This project uses Normalize.css to ensure consistent styles across different browsers. It provides a reliable cross-browser baseline for CSS defaults, helping to display the UI consistently and in line with modern standards.
+- Extra Reducers: Utilizes extra reducers in Redux Toolkit for handling actions that were not created using `createSlice` or `createAsyncThunk`.
+- Responsive Design: The application is designed to work seamlessly on both mobile and desktop devices, ensuring a consistent user experience across various platforms.
+- Cross-Platform Testing: The application has been thoroughly tested on both mobile and desktop platforms to ensure functionality and performance.
+- Pixel Perfect: The UI has been meticulously designed and implemented to match the design mockups as closely as possible, resulting in a pixel-perfect application.
 
 ## Installation
 To install and run this project locally, follow these steps:
