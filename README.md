@@ -45,6 +45,9 @@ This project is a demonstration of various software development concepts and tec
 - Responsive Design: The application is designed to work seamlessly on both mobile and desktop devices, ensuring a consistent user experience across various platforms.
 - Cross-Platform Testing: The application has been thoroughly tested on both mobile and desktop platforms to ensure functionality and performance.
 - Pixel Perfect: The UI has been meticulously designed and implemented to match the design mockups as closely as possible, resulting in a pixel-perfect application.
+- Vite: The project is built using Vite, a next-generation frontend tooling library. It provides faster and leaner development experience for modern web projects.
+- TypeScript: The project is written in TypeScript, a statically typed superset of JavaScript that adds types to the language. The project uses the latest version of TypeScript to take advantage of the most recent features and improvements.
+
 
 ## Installation
 To install and run this project locally, follow these steps:
