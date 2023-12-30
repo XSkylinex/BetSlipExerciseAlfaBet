@@ -33,7 +33,7 @@ export const BetBuilderAddInput: FC<IBetBuilderAddInputProps> = ({
   const incrementValue = () => {
     if (globalValue) {
       dispacth(increaseBet());
-    } else {
+    } else {      
       if (!sectionId || !name || !value) return;
       dispacth(increaseSingleBet({ sectionId, name, value }));
     }

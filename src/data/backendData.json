@@ -15,7 +15,7 @@
         "value": 235
       }
     ],
-    "sectionId": 0
+    "sectionId": 1
   },
   {
     "sectionName": "Both Teams To Score",
@@ -29,7 +29,7 @@
         "value": -120
       }
     ],
-    "sectionId": 1
+    "sectionId": 2
   },
   {
     "sectionName": "Any time Goalscorer",
@@ -59,7 +59,7 @@
         "value": 500
       }
     ],
-    "sectionId": 2,
+    "sectionId": 3,
     "column": true,
     "multiChoose": "multi"
   }

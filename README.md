@@ -1,6 +1,6 @@
-# AlphaBet Home Test
+# AlfaBet Home Test
 
-This is the README file for the AlphaBet Home Test project.
+This is the README file for the AlfaBet Home Test project.
 
 ## Table of Contents
 - [Introduction](#introduction)
