@@ -1,0 +1,224 @@
+.side-menu-container {
+  position: fixed;
+  z-index: 101;
+  right: -100%;
+  height: 100vh;
+  width: calc(100% - 43px);
+  background: #fff;
+  box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+  transition: right 0.5s ease;
+  top: 48px;
+  overflow-y: scroll;
+}
+
+.side-menu-bg {
+  position: fixed;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.64);
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+  top: 48px;
+}
+
+.side-menu-container.visible {
+  right: 0;
+}
+
+.side-menu-bg.visible {
+  opacity: 1;
+}
+
+.side-menu-back {
+  padding: 14px 17px;
+  font-size: 19px;
+  font-family: "HelveticaNeueMedium";
+  cursor: pointer;
+}
+
+.side-menu-back img {
+  margin-right: 10px;
+}
+
+.side-menu-left-arrow {
+  transform: rotate(180deg);
+}
+
+.side-menu-accordion {
+  height: 35px;
+}
+
+.side-menu-accordion-inner:nth-child(n + 2) {
+  border: 1px solid black;
+  border-top: none;
+}
+
+.side-menu-accordion-inner {
+  border: 1px solid black;
+  padding: 10px 11px;
+}
+
+.side-menu-container .accordion-content-inner {
+  padding: 0 !important;
+}
+
+.bet-builder-list-title {
+  font-style: italic;
+  font-weight: 500;
+  font-family: "HelveticaNeueMedium";
+  color: #999;
+  font-size: 14px;
+}
+
+.bet-builder-list-title img {
+  margin-right: 6px;
+}
+
+.bet-builder-list-h1 {
+  color: black;
+  font-family: "HelveticaNeueMedium";
+  font-weight: 700;
+  font-size: 14px;
+  margin: 13px 0 10px 0;
+}
+
+.stop-sign-area img {
+  cursor: pointer;
+  margin-left: 7px;
+  margin-right: 12px;
+}
+
+.bet-builder-row-text {
+  font-family: "HelveticaNeueMedium";
+  color: black;
+  font-size: 14px;
+  margin-bottom: auto;
+}
+
+.bet-builder-row-text span {
+  color: #919191;
+}
+
+.grey-vertical-line {
+  height: 14px;
+  margin: 5px 0;
+}
+
+.bet-builder-row:last-child img {
+  margin-bottom: 10px;
+}
+
+.bet-builder-row:last-child .grey-vertical-line {
+  display: none;
+}
+
+.delete-all {
+  float: right;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+.bet-builder-container {
+  margin-top: 35px;
+}
+
+.bet-builder-container img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.bet-builder-input {
+  width: 70px;
+}
+
+.bet-builder-container span {
+  font-size: 14px;
+  font-family: "HelveticaNeueMedium";
+  font-weight: 700;
+  margin: 0 2px 0 5px;
+}
+
+.bet-builder-container img:last-child {
+  margin-left: 5px;
+}
+
+.revenue-box {
+  margin-top: 14px;
+  justify-content: center;
+  font-size: 13px;
+  font-family: "HelveticaNeueMedium";
+  font-weight: 700;
+  width: 100%;
+  height: 25px;
+  border: 3px solid #e4ab12;
+}
+
+.bet-builder-single-title {
+  font-size: 11px;
+  font-family: "HelveticaNeueBold";
+  font-weight: 500;
+}
+
+.bet-builder-single .bet-builder-container {
+  margin-top: 0;
+}
+
+.confirm-container {
+  height: 300px;
+  padding: 0 12px;
+}
+
+.payout-area {
+  background: rgb(209, 209, 209, 0.2);
+  height: 63px;
+  margin-bottom: 10px;
+}
+
+.payout-area-text,
+.payout-area-total {
+  color: black;
+  font-family: "HelveticaNeueMedium";
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.payout-area-total {
+  background: #e4ab12;
+  color: black;
+  justify-content: center;
+  width: 131px;
+  height: 48px;
+  margin: 0;
+}
+
+.checkboxes {
+  margin-top: 8px;
+}
+
+.confirm-button {
+  border: none;
+  width: 100%;
+  background: #11b502;
+  font-family: "HelveticaNeueMedium";
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 17px;
+  height: 41px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+}
+
+.confirm-button:hover {
+  background: #0a7d01;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+}

@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "HelveticaNeueBold";
+  src: url(./assets/fonts/HelveticaNeueBold.ttf) format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "HelveticaNeueLight";
+  src: url(./assets/fonts/HelveticaNeueLight.ttf) format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "HelveticaNeueMedium";
+  src: url(./assets/fonts/HelveticaNeueMedium.ttf) format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Inter-Bold";
+  src: url(./assets/fonts/Inter-Bold.ttf) format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Inter-Light";
+  src: url(./assets/fonts/Inter-Light.ttf) format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Inter-Regular";
+  src: url(./assets/fonts/Inter-Regular.ttf) format("truetype");
+  font-weight: normal;
+}

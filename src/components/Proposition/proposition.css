@@ -1,0 +1,59 @@
+.proposition-container {
+  list-style-type: none;
+  overflow-x: auto;
+  height: 51px;
+  margin: 0;
+  padding: 0;
+}
+
+.proposition-active {
+  color: #f0f0f0;
+  background: var(--secondary-color);
+}
+
+.proposition-container li {
+  white-space: nowrap;
+  padding: 0 20px;
+  font-family: "HelveticaNeueLight";
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  border-radius: 20px;
+  height: 43px;
+}
+
+.proposition-container li:hover {
+  color: #f0f0f0;
+  background: var(--secondary-color);
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+}
+
+/* width */
+.proposition-container::-webkit-scrollbar {
+  height: 5px;
+  display: none;
+}
+
+/* Track */
+.proposition-container::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+/* Handle */
+.proposition-container::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.proposition-container::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+
+@media (min-width: 600px) {
+  .proposition-container::-webkit-scrollbar {
+    display: block;
+  }
+}

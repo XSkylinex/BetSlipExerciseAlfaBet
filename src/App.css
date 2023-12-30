@@ -1,0 +1,31 @@
+:root {
+  --main-color: #a60000;
+  --secondary-color: #f02;
+  --confirm-color: #11b502;
+  --default-color: #f1f1f1;
+  --box-color: #d1d1d1;
+}
+
+.flex-row-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+
+.toolTip-style {
+  width: auto !important;
+  font-size: 0.8rem !important;
+  font-family: "Inter-Regular" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+}

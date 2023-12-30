@@ -1,0 +1,17 @@
+.bet-Builder-container {
+  background: var(--default-color);
+  padding: 22px;
+}
+
+.bet-Builder-text {
+  font-family: "Inter-Bold";
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--main-color);
+  font-style: italic;
+}
+
+.bet-Builder-text img {
+  margin-left: 12px;
+  cursor: pointer;
+}

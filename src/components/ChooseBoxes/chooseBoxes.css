@@ -1,0 +1,45 @@
+.boxes-container {
+  /* padding: 11px 12px; */
+}
+
+.selected-box-style {
+  background: var(--box-color);
+  justify-content: center;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.selected-box-style.row {
+  height: 46px;
+  font-family: "Arial";
+  font-size: 11px;
+  text-align: center;
+  margin-right: 10px;
+  width: 100%;
+
+  justify-content: center;
+}
+
+.selected-box-style.column {
+  font-family: "HelveticaNeueLight";
+  font-size: 13px;
+  margin-bottom: 11px;
+  padding: 0 10px;
+}
+
+.selected-box-style.row:last-child {
+  margin-right: 0;
+}
+
+.selected-box-style.column {
+  height: 42px;
+}
+
+.selected-box-style.selected {
+  color: #fff;
+  background: var(--secondary-color);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}

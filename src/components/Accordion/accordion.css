@@ -1,0 +1,37 @@
+.accordion-container {
+  background: var(--main-color);
+  height: 45px;
+  font-family: "HelveticaNeueLight";
+  color: white;
+  padding: 0 12px;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.accordion-container img {
+  margin-right: 9px;
+  transition: transform 0.75s;
+}
+
+.arrow-up {
+  transform: rotate(180deg);
+}
+
+.arrow-down {
+  transform: rotate(0);
+}
+
+.accordion-content {
+  overflow: hidden;
+  transition: max-height 1s ease-in-out;
+}
+
+.accordion-content.show {
+  max-height: fit-content;
+}
+
+.accordion-content-inner {
+  padding: 10px 11px;
+}

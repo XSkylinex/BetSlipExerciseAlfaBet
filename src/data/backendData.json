@@ -1,0 +1,66 @@
+[
+  {
+    "sectionName": "Moneyline",
+    "data": [
+      {
+        "name": "Team 1",
+        "value": 150
+      },
+      {
+        "name": "Drew",
+        "value": 200
+      },
+      {
+        "name": "Team 2",
+        "value": 235
+      }
+    ],
+    "sectionId": 0
+  },
+  {
+    "sectionName": "Both Teams To Score",
+    "data": [
+      {
+        "name": "Yes",
+        "value": -110
+      },
+      {
+        "name": "No",
+        "value": -120
+      }
+    ],
+    "sectionId": 1
+  },
+  {
+    "sectionName": "Any time Goalscorer",
+    "data": [
+      {
+        "name": "Player 1",
+        "value": 115
+      },
+      {
+        "name": "Player 2",
+        "value": 200
+      },
+      {
+        "name": "Player 3",
+        "value": 275
+      },
+      {
+        "name": "Player 4",
+        "value": 350
+      },
+      {
+        "name": "Player 5",
+        "value": 425
+      },
+      {
+        "name": "Player 6",
+        "value": 500
+      }
+    ],
+    "sectionId": 2,
+    "column": true,
+    "multiChoose": "multi"
+  }
+]
