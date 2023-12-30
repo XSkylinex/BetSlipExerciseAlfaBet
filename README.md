@@ -6,7 +6,7 @@ This is the README file for the AlphaBet Home Test project.
 - [Introduction](#introduction)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
-- [Installation](#installation)d
+- [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
