@@ -8,7 +8,6 @@ This is the README file for the AlfaBet Home Test project.
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 
 ## Introduction
 This project is a demonstration of various software development concepts and techniques implemented using React.
@@ -54,11 +53,8 @@ To install and run this project locally, follow these steps:
 
 1. Clone the repository.
 2. Install the dependencies by running `yarn install`.
-3. Start the development server by running `dev start --host`. 
+3. Start the development server by running `yarn dev --host`. 
 
 ## Usage
 Once the development server is running, you can access the application by navigating to `http://localhost:5173` in your web browser.
-
-## Contributing
-Contributions to this project are welcome. Please follow the [contribution guidelines](CONTRIBUTING.md) for more information.
 
